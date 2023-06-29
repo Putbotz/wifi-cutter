@@ -2,7 +2,7 @@
 ## Cut other devices wifi connection
 ***Coded by WanZ***
 
-<sup>rgb(255,0,0)WARNING</sup>
+<span style="color:red">WARNING</span>
 1. Please atlease understand some basics of networking befor using this tool.
 2. This tool will jam entire networking traffics traffics exexcept your device and the the router.
 3. DO NOT use this tool in network that have physical security system (eg. wireless CCTV)
