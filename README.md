@@ -3,9 +3,9 @@
 ***Coded by WanZ***
 
 ### <code style="color:red">[!] WARNING [!]</code>
-1. **Please understand** some basics of networking before using this tool.
-2. This tool will **jam entire networking traffics** exexcept your device and the the router.
-3. **DO NOT** use this tool in network that have physical security system. (e.g. wireless CCTV)
+1. **ONLY** use this tool in the network **YOU OWN** / **HAVE PERMISSION** to do so.
+2. This tool will **JAM ENTIRE NETWORKING TRAFFICS.** (except your device and the the router)
+3. **DO NOT** use this tool in network that have physical security system. **(e.g. wireless CCTV)**
 
 Requirements CLI (Command Line Interface):
 1. Python 3.8^
