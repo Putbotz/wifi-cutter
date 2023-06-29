@@ -1,6 +1,6 @@
 # wifi-cutter
 ## Cut other devices wifi connection
-### ** Coded by WanZ **
+***Coded by WanZ***
 
 
 Requirements CLI (Command Line Interface) / GUI (Graphical User Interface):
