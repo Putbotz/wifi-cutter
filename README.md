@@ -1,8 +1,8 @@
 # WiFi-Cutter
-## Cut other devices wifi connection
+## Cut other devices network connection
 ***Coded by WanZ***
 
-<sup>[!] WARNING [!]</sup>
+### <sup>[!] WARNING [!]</sup>
 1. Please atlease understand some basics of networking befor using this tool.
 2. This tool will jam entire networking traffics traffics exexcept your device and the the router.
 3. DO NOT use this tool in network that have physical security system (eg. wireless CCTV)
