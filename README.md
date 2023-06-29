@@ -2,7 +2,7 @@
 ## Cut other devices network connection
 ***Coded by WanZ***
 
-### <code style="color:red"><sup>[!] WARNING [!]</sup></code>
+### <code style="color:red">[!] WARNING [!]</code>
 1. Please atlease understand some basics of networking befor using this tool.
 2. This tool will jam entire networking traffics traffics exexcept your device and the the router.
 3. DO NOT use this tool in network that have physical security system (eg. wireless CCTV)
