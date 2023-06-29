@@ -1,7 +1,7 @@
 # wifi-cutter
 ## Cut other devices wifi connection
 ***Coded by WanZ***
-
+```WARNING```
 
 Requirements CLI (Command Line Interface):
 1. Python 3.8^
